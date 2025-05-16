@@ -25,7 +25,7 @@ vegetables = ["Tomato", "Potato", "Onion", "Carrot", "Cabbage"]
 selected_vegetable = st.sidebar.selectbox("Select Vegetable", vegetables)
 
 # Date selection
-today = datetime.now()
+today = datetime.now().date()  # Get only the date part
 max_date = today + timedelta(days=30)
 selected_date = st.sidebar.date_input(
     "Select Date for Prediction",
