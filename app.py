@@ -5,13 +5,13 @@ from datetime import datetime, timedelta
 
 # Set page config
 st.set_page_config(
-    page_title="Vegetable Price Prediction",
+    page_title="Vegetable price Prediction",
     page_icon="🥬",
     layout="wide"
 )
 
 # Title and description
-st.title("🥬 Vegetable Price Prediction")
+st.title("🥬 Vegetable price Prediction")
 st.markdown("""
 This application helps predict vegetable prices in the market using machine learning.
 Select a vegetable and date to get price predictions.
